@@ -1,0 +1,95 @@
+p {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;  
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 80;
+    height: 100px;
+    padding: 15px 20px;
+    font-size: larger;
+    top: 25px;   
+    background-color: rgb(93, 189, 93);
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: 3px solid whitesmoke;
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.nav a:hover, a:focus {
+    color: rgba(230, 195, 39, 0.938);
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.play img {
+    border: 5px solid gray;
+    padding: 6px;
+    border-radius: 80px;
+}
+
+.play img:nth-child(2) {
+    border: 5px solid green;
+}
+
+.play img:nth-child(5) {
+    border: 5px solid green;
+}
+
+.play {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.index img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightblue;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.walk img {
+    display: inline-table;
+
+    border: 5px solid gray;
+    padding: 6px;
+    border-radius: 180px;    
+}
+ 
+.walk img:nth-child(2) {
+    border: 5px solid lightblue;
+}
+
+.walk img:nth-child(4) {
+    border: 5px solid green;
+}
+
+footer {
+    margin-top: 70px;
+}
